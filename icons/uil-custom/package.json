@@ -1,0 +1,22 @@
+{
+  "name": "@iconify-json/uil-custom",
+  "description": "Material Design Icons icon set in Iconify JSON format",
+  "version": "1.1.55",
+  "main": "index.js",
+  "module": "index.mjs",
+  "license": "Apache-2.0",
+  "exports": {
+    "./*": "./*",
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    },
+    "./icons.json": "./icons.json"
+  },
+  "iconSet": {
+    "icons": "icons.json"
+  },
+  "dependencies": {
+    "@iconify/types": "*"
+  }
+}
